@@ -1,0 +1,30 @@
+#boxed {
+  width: 50vw;
+}
+
+#quote-box{
+  background-color: powderblue;
+  height: 100vh;
+}
+
+.box{
+  background-color: mintcream;
+}
+
+
+.footer{
+text-align: center;
+background-color: powderblue;
+color:black;
+font-weight: 600;
+font-size: large;
+
+}
+
+.author {
+  padding: 5px;
+}
+
+.buttons {
+  padding-top: 12px;
+}
