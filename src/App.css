@@ -1,4 +1,63 @@
-#boxed {
+
+:root {
+  --background: #1e1e1e;
+  --text: #FFF;
+	--underline: #90EE90;
+}
+html, body {
+}
+html {
+	font-size: 12px;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+p {
+  font-size: 2rem;
+}
+.wrapper {
+  margin: 2rem;
+  margin-top: 20rem;
+}
+.title {
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+  margin: auto;
+  padding: 3rem 5rem;
+  max-width: 60rem;
+  min-height: 20rem;
+  
+}
+#author {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer {
+  margin: auto;
+  font-size: large;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+/* #boxed {
   width: 50vw;
 }
 
@@ -27,4 +86,4 @@ font-size: large;
 
 .buttons {
   padding-top: 12px;
-}
+} */
